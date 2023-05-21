@@ -33,6 +33,6 @@ jobs:
         id: fa
         with:
           app-name: 'fxDevOps'
-          slot-name: 'Production'
+          slot-name: 'Staging'
           package: '${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}/output'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_454D3B6035824D54BC1B270870A08477 }}
